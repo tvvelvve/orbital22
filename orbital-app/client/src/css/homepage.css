@@ -1,0 +1,305 @@
+﻿body,
+html {
+    width: 100%;
+    height: 100%;
+    min-height: 100% !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.header {
+    position: fixed;
+    top: 65px;
+    z-index: 10;
+    width: 100%
+}
+
+#navbar {
+    z-index: 1;
+    box-shadow: none;
+    transition: padding-top .3s ease-in-out, padding-bottom .3s ease-in-out;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 2px 2px #D3D3D3;
+    z-index: 10;
+}
+
+
+.icon {
+    position: relative;
+    width: 60px;
+    height: 45px;
+    margin-right: 8px;
+    display: inline-block;
+    background-size: cover
+}
+
+.orbital-dp {
+    background-image: url(../images/orbital-icon.png);
+    margin-left: 8px;
+    float: left
+}
+
+.navbar-brand {
+    font-size: 1.35em;
+    padding: 10px;
+    font-weight: 400;
+}
+
+#navbar.navbar-collapse {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    transition: padding-top .3s ease-in-out, padding-bottom .3s ease-in-out
+}
+
+.navbar-collapse {
+    background-color: #FFF
+}
+
+.nav-item {
+    display: inline-block;
+    font-family: sans-serif;
+    color: #222;
+    font-size: 1.3em;
+    transition: font-size .3s ease-in-out;
+    letter-spacing: .0125em;
+    padding: 0 10px 0 10px;
+    line-height: 60px;
+}
+
+.active-nav-item {
+    font-family: sans-serif;
+}
+
+#nav-items {
+    margin: 0 auto;
+    color: #222
+}
+
+.nav-link {
+    color: #222;
+}
+
+.nav-link:hover {
+    color: #222;
+    cursor: pointer
+}
+
+#intro-div {
+    padding-top: 9%;
+    height: auto;
+}
+
+#intro-container {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+#intro-left {
+    margin: 0 auto;
+    padding-right: 5%;
+}
+
+#intro-right {
+    margin: 0 auto;
+    padding-left: 5%;
+}
+
+.card {
+    border-radius: 45px;
+}
+
+#projects-div {
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    padding: 0px;
+    padding-bottom: 75px;
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    overflow: hidden;
+}
+
+.projects-grid {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    margin-top: 0%!important;
+}
+
+.project-card {
+    border-radius: 30px;
+}
+
+.project-card:hover {
+    background: rgba(0, 0, 0, .7) ! important;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-content {
+    height: 350px;
+}
+
+.project-overlay {
+    margin: 30px;
+    height: 100%;
+    width: 79%;
+    opacity: 0;
+    z-index: 1;
+    transition: .5s ease;
+}
+
+.project-title-container {
+    padding-top: 130px;
+    height: 280px;
+    font-size: 25px;
+}
+
+.project-title {
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.project-title-level {
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+.emptyProject {
+    height: 550px;
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+.dropdown-menu {
+    width: 90px;
+    padding: 0px;
+
+}
+
+.dropdown-item {
+    height: 60px;
+    line-height: 38px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+
+.page-container {
+    position: relative;
+    min-height: 1000px;
+    overflow: auto;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    display: block;
+} */
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+
+/* Style the back side */
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.btn-circle.btn-md {
+    width: 40px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    color: #1e8bf1;
+    border: 1px solid #1e8bf1;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+

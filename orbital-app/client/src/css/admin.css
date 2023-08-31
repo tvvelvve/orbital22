@@ -1,0 +1,62 @@
+.sidebar {
+    height: 1000px;
+    width: 250px;
+    position: relative;
+    margin-top: 77px;
+    padding-top: 15px;
+}
+
+.container-fluid {
+    width: 85%;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+#project-piechart {
+    height: 100%;
+    width: 100%;
+}
+
+#usercount {
+    padding-top: 15px;
+}
+
+#projectcount {
+    padding-top: 15px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal-icon {
+    padding: 30px;
+    font-size: 70px;
+
+}
+
+.modal-icon-danger {
+    color: #ff2f3e;
+}
+
+.modal-icon-success {
+    color: #00c147;
+}
+
+.modal-footer {
+    margin: 0 auto;
+}
+
+.searchBtn {
+    width: 250px;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: 1px solid #1e8bf1;
+}

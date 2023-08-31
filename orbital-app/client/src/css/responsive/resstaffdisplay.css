@@ -1,0 +1,24 @@
+/* min width: 375px (iphone 8) */
+/* max height: 1000px */
+
+@media only screen and (max-width:483px) {
+    .emptyStaff {
+        font-size: 26px;
+    }
+
+    .staff {
+        margin-top: 20px!important;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .emptyStaff {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:388px) {
+    .emptyStaff {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,238 @@
+/* min width: 375px (iphone 8) */
+/* max height: 1000px */
+
+@media only screen and (max-width:1079px) {
+    /* positions loginbody below introbody */
+    .body {
+        flex-direction: column;
+    }
+
+    /* widens introbody to fit better on screen */
+    .introbody {
+        max-width: 75%;
+    }
+
+    /* widens loginbody to fit better on screen */
+    .loginbody {
+        max-width: 75%;
+    }
+
+    #intro-left {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #intro-right {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:833px) {
+    /* widens introbody to fit better on screen */
+    .introbody {
+        max-width: 85%;
+    }
+
+    /* widens loginbody to fit better on screen */
+    .loginbody {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    /* allows for some margin between page borders and content */
+    .middlecontent {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* allows for some margin between input container and login borders*/
+    .logincontent {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* widens introbody to fit better on screen */
+    .introbody {
+        max-width: 100%;
+    }
+
+    /* widens loginbody to fit better on screen */
+    .loginbody {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:625px) {
+    /* narrows margin to allow more space in between */
+    .middlecontent {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    /* normal text */
+    .middlecontent {
+        font-size: 95%;
+    }
+
+    /* 'about orbital' */
+    .ao {
+        font-size: 68px;
+    }
+}
+
+@media only screen and (max-width:539px) {
+    /* narrows margin to allow more space in between */
+    .middlecontent {
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 93%;
+    }
+
+    /* 'about orbital' */
+    .ao {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (max-width:488px) {
+    /* normal text */
+    .middlecontent {
+        font-size: 92%;
+    }
+
+    /* 'about orbital' */
+    .ao {
+        font-size: 60px;
+    }
+
+    /* navigation bar left elements */
+    .navleft {
+        font-size: 1.2rem;
+    }
+
+    /* navigation bar right elements */
+    .navright {
+        font-size: 0.8rem;
+        padding-left: 0%;
+    }
+    
+    .orbital-dp {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .middlecontent {
+        font-size: 91%;
+    }
+
+    .ao {
+        font-size: 54px;
+    }
+
+    #intro-right {
+        margin-top: 10px;
+    }
+
+    .logincontent {
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .loginhere {
+        margin-bottom: 0px;
+    }
+    
+    .signin {
+        font-size: 36px;
+    }
+
+    #intro-div {
+        padding-top: 12%;
+    }
+}
+
+@media only screen and (max-width:437px) {
+    /* narrows margin to allow more space in between */
+    .middlecontent {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 90%;
+    }
+
+    #footer {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .middlecontent {
+        font-size: 88%;
+    }
+
+    .ao {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:383px) {
+    .middlecontent {
+        font-size: 82%;
+    }
+
+    .ao {
+        font-size: 46px;
+    }
+
+    #intro-right {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .logincontent {
+        padding-top: 15px!important;
+        padding-bottom: 15px!important;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .signin {
+        font-size: 30px;
+    }
+
+    .memberornot {
+        margin-bottom: 3px;
+    }
+
+    .loginbuttom {
+        margin: 20px;
+    }
+
+    .page-container {
+        min-height: 930px;
+    }
+}
+
+
+@media only screen and (max-width: 362px) {
+    #intro-div {
+        padding-top: 30%;
+    }
+
+    .middlecontent {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .ao {
+        font-size: 42px;
+    }
+}
